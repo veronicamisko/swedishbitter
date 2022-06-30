@@ -91,3 +91,252 @@ body {
     line-height: 28px;
     color: #9a9a9a;
 }
+
+.promo {
+    background-image: url("https://assets.htmlacademy.ru/content/skills/3/case-02/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.promo-wrapper {
+    display: flex;
+}
+
+.promo-img-column {
+    width: 570px;
+    margin-right: 30px;
+    padding-top: 95px;
+}
+
+.promo-text {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.promo-text-uppercase {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.promo-text-big {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.statistics {
+    padding-top: 85px;
+    padding-bottom: 150px;
+}
+
+.statistics-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    margin-right: -15px;
+}
+
+.statistics-item {
+    width: 270px;
+    margin-right: 15px;
+    color: #000000;
+}
+
+.item-indicator {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #a4c58c;
+}
+
+.symptoms-title,
+.success-secret-title,
+.set-title,
+.ingredients-title,
+.warranty-title {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #303030;
+}
+
+.symptoms {
+    padding-bottom: 90px;
+}
+
+.symptoms-wrapper {
+    display: flex;
+}
+
+.symptoms-list-column {
+    width: 670px;
+}
+
+.symptoms-img-column {
+    width: 500px;
+
+    /* Временно для сетки */
+    min-height: 810px;
+}
+
+.success-secret {
+    padding-bottom: 150px;
+}
+
+.success-secret-wrapper {
+    display: flex;
+}
+
+.success-secret-img-column {
+    width: 600px;
+    background-image: url("https://assets.htmlacademy.ru/content/skills/3/case-02/img/bg-cup.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.success-secret-list-column {
+    width: 500px;
+    padding-left: 70px;
+}
+
+.success-secret-list-title {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.success-secret-text {
+    background-color: #ffffff;
+}
+
+.set {
+    padding-bottom: 150px;
+}
+
+.set-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.set-title {
+    width: 440px;
+    margin-bottom: 40px;
+}
+
+.set-item {
+    width: 370px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.ingredients-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ingredients-img-column {
+    width: 570px;
+    margin-right: 30px;
+}
+
+.ingredients-description-column {
+    width: 570px;
+}
+
+.ingredients-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    margin-right: -30px;
+}
+
+.ingredients-item {
+    width: 270px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-color: #f6f9f3;
+}
+
+.ingredients-description {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.warranty-wrapper {
+    display: flex;
+}
+
+.warranty-text-column {
+    width: 670px;
+    margin-right: 15px;
+}
+
+.warranty-img-column {
+    width: 485px;
+}
+
+.main-footer-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.main-footer-logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 90px;
+}
+
+.main-footer-phone-column {
+    padding-top: 20px;
+    margin-left: auto;
+    text-align: right;
+}
+
+.main-footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    width: 645px;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    padding-top: 25px;
+}
+
+.main-footer-links-item {
+    margin-right: 60px;
+}
+
+.main-footer-links-item:last-child {
+    margin-right: 0;
+}
+
+.main-footer-link {
+    font-size: 12px;
+    line-height: 16px;
+    color: #9a9a9a;
+}
+
+
+
+
+
